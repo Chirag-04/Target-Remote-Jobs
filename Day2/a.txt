@@ -1,0 +1,13 @@
+What is JavaScript and why do we use it?
+JavaScript is a programming language that was first created in 1994 as a way to add functionality and user interaction to a website. If we think back to our analogy of a web page as a house (Introduction to Web Development Fundamentals), we will remember that we said that JavaScript is the electricity, plumbing, and gas. It is what makes the web page “run”. JavaScript was originally designed to be used purely on the front end as a way for web developers to add functionality to their web pages, and in its early days, it did just that. Recently, the introduction of the “V8 engine” by Google has improved the speed and functionality of JS. That led to the development and release of exciting new front end JavaScript frameworks and eventually Node.js, a way to run JavaScript on a server (back end). This new development has led to a resurgence of JavaScript. Now, JavaScript is one of the world’s most widely-used programming languages. We can find JavaScript used on the front end, back end, mobile, Internet of Things (Iot), game development, and really anywhere a traditional programming language would be used. Recently, the newest version of the JavaScript language was released, ES6*.
+
+*even newer versions have come out (ES7, ES8, etc) but this release is where a major paradigm shift happened. We will be referring to any concepts released after ES6, to simply ES6.
+
+JavaScript vs Java (and other languages)
+Keep in mind, JavaScript != Java. Although they share similar names (this was, unfortunately, considered a feature by JavaScript’s early pioneers) that is where the similarities end.
+
+The creators of JavaScript wanted to borrow concepts from other programming languages, such as Java and C. Those of you with backgrounds in other languages may see things that look very familiar, mainly the use of classes and Object-Oriented Programming (OOP) architecture. Keep in mind that JavaScript is not a true OOP language and many things you may be familiar with from another language won’t work with JavaScript.
+
+JavaScript is considered a ‘loosely’ typed language, in which types do exist, but they are not enforced. You do not have to declare a type when creating a variable or an array, for instance.
+
+How to ‘run’ JavaScript
