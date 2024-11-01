@@ -1,0 +1,11 @@
+Main problem is inversion of control 
+we are relying on createOrder api to call proceedToPaymeny api when it is done creating an order
+isnt it risky  ? We are trusting some other api to call our callback correctly
+
+
+Problems with this code:
+
+1. Poor Readability: The nested structure makes code hard to read and maintain
+2.Error Handling: Difficult to implement proper error handling for each callback
+3. Inversion of Control: You're trusting the APIs to call your callbacks correctly
+4. Debugging: Hard to debug due to multiple nested levels

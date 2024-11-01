@@ -1,4 +1,4 @@
-// //
+
 // Problem: Fetching Data with Delays
 // Suppose you are creating a simple program that mimics data fetching from a server with different response times. You’ll need to create two functions:
 
@@ -8,7 +8,18 @@
 
 // Create these functions using Promise.
 // Write an async function called displayUserData that:
-//
+
+function fetchUserPosts(){
+    const p = new Promise(function(resolve){
+        setTimeout(function(){
+            resolve([
+                { postId: 1, content: "Hello World!" },
+                { postId: 2, content: "Practicing promises and async/await" }
+            ])
+        } , 1000);
+    });
+    return p;
+}
 function fetchUserData(){
     const p = new Promise(function(resolve){
         setTimeout(function(){
@@ -21,5 +32,7 @@ function fetchUserData(){
 async function main(){
     const value = await fetchUserData(); // accepts a promise
     console.log(value);
+    const userValue = await fetchUserPosts(); // recieves a promise
+    console.log(userValue);
 }
 main();

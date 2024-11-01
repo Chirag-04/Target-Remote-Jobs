@@ -1,5 +1,4 @@
 // more cleaner way of writing async code 
-
 // lets handle the ChiragSetTimeout using async await
 
 function ChiragSetTimeOut(duration){
