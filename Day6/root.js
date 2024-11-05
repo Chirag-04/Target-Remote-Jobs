@@ -71,6 +71,7 @@ app.post("/" , function(req , res){
     })
 })
 
+
 app.put('/' , function(req , res){
     let isPresentBadKidney =  anyBadKidney();
     if(!isPresentBadKidney){
@@ -89,11 +90,8 @@ app.put('/' , function(req , res){
 
 
 // to delete all the unhealthy kidenys
-
 // couple of ways to achieve this 
-
 // task is to check whether a user has a bad kidney or not 
-
 app.delete('/', function(req , res){
     let isPresentAnybadKidney =  anyBadKidney();
     console.log("any bad kidney" ,isPresentAnybadKidney);
