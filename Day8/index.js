@@ -53,7 +53,6 @@ app.get('/api/users/:id' , function(req  ,res){
     console.log(user_detail);
     res.json(user_detail);
 })
-
 // add a user 
 app.post('/api/users' , function(req , res){
     const data =  req.body;
@@ -65,8 +64,6 @@ app.post('/api/users' , function(req , res){
     users.push(newUser);
     res.send("post");
 })
-
-
 app.listen(port , function(){
     console.log(`Server is running at ${port}`);
 })
