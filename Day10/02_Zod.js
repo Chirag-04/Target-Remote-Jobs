@@ -24,8 +24,5 @@ function validateUser(obj){
     console.log(response);
 }
 
-validateUser({
-    email : "chiragnsut04@gmail.com" ,
-    password : "1223344556677889"
-});
+ 
 
